@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_serranoltexx.mk
+    $(LOCAL_DIR)/havoc_serranoltexx.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_serranoltexx-userdebug
+    havoc_serranoltexx-userdebug
