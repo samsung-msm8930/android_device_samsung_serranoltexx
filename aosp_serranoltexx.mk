@@ -25,10 +25,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from serranoltexx device
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_serranoltexx
+PRODUCT_NAME := aosp_serranoltexx
 PRODUCT_DEVICE := serranoltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
